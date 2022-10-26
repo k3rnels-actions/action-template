@@ -11,6 +11,18 @@
     {
       "matchManagers": ["npm"],
       "addLabels": ["npm"]
+    },
+    {
+      "matchDepTypes": ["devDependencies", "build-dependencies"],
+      "groupName": "dev-dependencies"
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "groupName": "dependencies"
+    },
+    {
+      "matchDepTypes": ["action"],
+      "groupName": "ci-dependencies"
     }
   ],
   "timezone": "Etc/UTC",
