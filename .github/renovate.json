@@ -25,6 +25,10 @@
     {
       "matchDepTypes": ["action"],
       "groupName": "ci-dependencies"
+    },
+    {
+      "matchPackageNames": ["node"],
+      "major": false
     }
   ],
   "timezone": "Etc/UTC",
